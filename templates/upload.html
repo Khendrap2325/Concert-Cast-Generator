@@ -1,0 +1,53 @@
+<!-- upload.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Dance Schedule</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            background-color: lavender;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            display: inline block;
+        }
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div style="padding: 15px; text-align:left">
+        <h1>ARMC Beacon Liturgical Dance Ministry</h1>
+    </div>
+    <div>
+
+    </div>
+    <h2>Upload a CSV File for Dance Scheduling</h2>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <a href="#">https://forms.gle/9CGfUQCF8efCco2J6</a>
+        <p>Please use the google form link to gather responses. Link the form to google sheets and download as a .csv file. Upload the .csv file using the "choose file" button. Then submit for your concert cast list!</p>
+        <input type="file" name="file" accept=".csv" required>
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
